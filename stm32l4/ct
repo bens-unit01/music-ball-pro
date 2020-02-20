@@ -1,0 +1,20 @@
+echo "Running  ctags -R Src/* Inc/* Drivers/* " 
+echo "Please wait ..." 
+rm tags
+USE_HAL_DRIVER=1
+#STM32F401xE=1
+STM32L476xx=1
+USE_STM32F4XX_NUCLEO=1
+USE_USB_FS=1
+
+SP=' ./Inc/*.h'     
+SP=$SP' ./Src/*.c'
+SP=$SP' Drivers/CMSIS/Device/ST/STM32L4xx/Include/*.h'      
+SP=$SP' Drivers/CMSIS/Device/ST/STM32L4xx/Source/*.c'      
+SP=$SP' Drivers/STM32L4xx_HAL_Driver/Inc/*'      
+SP=$SP' Drivers/STM32L4xx_HAL_Driver/Src/*'      
+SP=$SP' Drivers/CMSIS/Include/*'      
+ctags -R $SP 
+#echo $SP
+echo "Done." 
+

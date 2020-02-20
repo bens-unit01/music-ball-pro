@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddToOutput	Form1.cs	/^        void AddToOutput(string text)$/;"	m	class:MusicBallProLogs.Form1	file:
+Close	PortChat.cs	/^        public void Close() {$/;"	m	class:MusicBallProLogs.PortChat
+DisplayCoordinates	Form1.cs	/^        void DisplayCoordinates() { $/;"	m	class:MusicBallProLogs.Form1	file:
+Dispose	Form1.Designer.cs	/^        protected override void Dispose(bool disposing)$/;"	m	class:MusicBallProLogs.Form1
+Form1	Form1.Designer.cs	/^    partial class Form1$/;"	c	namespace:MusicBallProLogs
+Form1	Form1.cs	/^        public Form1()$/;"	m	class:MusicBallProLogs.Form1
+Form1	Form1.cs	/^    public partial class Form1 : Form$/;"	c	namespace:MusicBallProLogs
+Form1_FormClosed	Form1.cs	/^        private void Form1_FormClosed(object sender, FormClosedEventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+InitCalc	Form1.cs	/^        void InitCalc() {$/;"	m	class:MusicBallProLogs.Form1	file:
+InitGridView	Form1.cs	/^        private void InitGridView() {$/;"	m	class:MusicBallProLogs.Form1	file:
+InitializeComponent	Form1.Designer.cs	/^        private void InitializeComponent()$/;"	m	class:MusicBallProLogs.Form1	file:
+Main	Program.cs	/^        static void Main()$/;"	m	class:MusicBallProLogs.Program	file:
+MusicBallProLogs	Form1.Designer.cs	/^﻿namespace MusicBallProLogs$/;"	n
+MusicBallProLogs	Form1.cs	/^namespace MusicBallProLogs$/;"	n
+MusicBallProLogs	PortChat.cs	/^namespace MusicBallProLogs$/;"	n
+MusicBallProLogs	Program.cs	/^namespace MusicBallProLogs$/;"	n
+MusicBallProLogs	Utils.cs	/^namespace MusicBallProLogs$/;"	n
+OnConnecting	Form1.cs	/^        void OnConnecting(object sender, EventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+OnConnectionCanceled	Form1.cs	/^        void OnConnectionCanceled(object sender, EventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+OnControllerPipeDiscoveryCompleted	Form1.cs	/^        void OnControllerPipeDiscoveryCompleted(object sender, EventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+OnProgressUpdated	Form1.cs	/^        void OnProgressUpdated(object sender, Nordicsemi.ValueEventArgs<int> e)$/;"	m	class:MusicBallProLogs.Form1	file:
+OnScanning	Form1.cs	/^        void OnScanning(object sender, EventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+OnScanningCanceled	Form1.cs	/^        void OnScanningCanceled(object sender, EventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+OutputText	Form1.cs	/^        public ObservableCollection<string> OutputText$/;"	p	class:MusicBallProLogs.Form1
+PI	Form1.cs	/^        static double PI = 3.14159265;$/;"	f	class:MusicBallProLogs.Form1	file:
+PortChat	PortChat.cs	/^        public  PortChat(DataTable table, string port)$/;"	m	class:MusicBallProLogs.PortChat
+PortChat	PortChat.cs	/^    class PortChat$/;"	c	namespace:MusicBallProLogs
+Program	Program.cs	/^    static class Program$/;"	c	namespace:MusicBallProLogs
+Read	PortChat.cs	/^        public static void Read()$/;"	m	class:MusicBallProLogs.PortChat
+SHIFT	Utils.cs	/^        public static int SHIFT = 420;$/;"	f	class:MusicBallProLogs.Utils
+SetButtonText	Form1.cs	/^        void SetButtonText(Button button, string text)$/;"	m	class:MusicBallProLogs.Form1	file:
+SetConnectButtonText	Form1.cs	/^        void SetConnectButtonText(string text)$/;"	m	class:MusicBallProLogs.Form1	file:
+SetPortBaudRate	PortChat.cs	/^        public static int SetPortBaudRate(int defaultPortBaudRate)$/;"	m	class:MusicBallProLogs.PortChat
+SetPortDataBits	PortChat.cs	/^        public static int SetPortDataBits(int defaultPortDataBits)$/;"	m	class:MusicBallProLogs.PortChat
+SetPortHandshake	PortChat.cs	/^        public static Handshake SetPortHandshake(Handshake defaultPortHandshake)$/;"	m	class:MusicBallProLogs.PortChat
+SetPortName	PortChat.cs	/^        public static string SetPortName(string defaultPortName)$/;"	m	class:MusicBallProLogs.PortChat
+SetPortParity	PortChat.cs	/^        public static Parity SetPortParity(Parity defaultPortParity)$/;"	m	class:MusicBallProLogs.PortChat
+SetPortStopBits	PortChat.cs	/^        public static StopBits SetPortStopBits(StopBits defaultPortStopBits)$/;"	m	class:MusicBallProLogs.PortChat
+SetTextBoxText	Form1.cs	/^        void SetTextBoxText(TextBox text_box, string text) {$/;"	m	class:MusicBallProLogs.Form1	file:
+Utils	Utils.cs	/^    class Utils$/;"	c	namespace:MusicBallProLogs
+_continue	PortChat.cs	/^        static bool _continue;$/;"	f	class:MusicBallProLogs.PortChat	file:
+_outputText	Form1.cs	/^        private ObservableCollection<String> _outputText = null;$/;"	f	class:MusicBallProLogs.Form1	file:
+_serialPort	PortChat.cs	/^        static SerialPort _serialPort;$/;"	f	class:MusicBallProLogs.PortChat	file:
+angle	Form1.cs	/^        Int16[] angle = {90, 180, 270, 0};$/;"	f	class:MusicBallProLogs.Form1	file:
+buffer	Form1.cs	/^        private int[,] buffer = new int[9, 4];$/;"	f	class:MusicBallProLogs.Form1	file:
+components	Form1.Designer.cs	/^        private System.ComponentModel.IContainer components = null;$/;"	f	class:MusicBallProLogs.Form1	file:
+dataGridView1	Form1.Designer.cs	/^        private System.Windows.Forms.DataGridView dataGridView1;$/;"	f	class:MusicBallProLogs.Form1	file:
+dataGridView1_CellContentClick	Form1.cs	/^        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+emitter	Form1.cs	/^        Int16[] emitter = { 0, 18, 36, 54, 72, 90, 108, 126, 144, 162 };$/;"	f	class:MusicBallProLogs.Form1	file:
+ex	Form1.cs	/^        float[] ex = new float[10];$/;"	f	class:MusicBallProLogs.Form1	file:
+ey	Form1.cs	/^        float[] ey = new float[10];$/;"	f	class:MusicBallProLogs.Form1	file:
+fill_circle	Utils.cs	/^        static public void fill_circle(Graphics g, Brush brush,$/;"	m	class:MusicBallProLogs.Utils
+get_degrees	Utils.cs	/^        public static float get_degrees(float theta)$/;"	m	class:MusicBallProLogs.Utils
+get_radian	Utils.cs	/^        public static float get_radian(float theta)$/;"	m	class:MusicBallProLogs.Utils
+get_radius_coor	Utils.cs	/^        static public  double get_radius_coor(int x, int y)$/;"	m	class:MusicBallProLogs.Utils
+get_theta_coor	Utils.cs	/^        static public double get_theta_coor(int x, int y)$/;"	m	class:MusicBallProLogs.Utils
+get_x_coor	Utils.cs	/^        static public double get_x_coor(double r, float theta)$/;"	m	class:MusicBallProLogs.Utils
+get_y_coor	Utils.cs	/^        static public double get_y_coor(double r, float theta)$/;"	m	class:MusicBallProLogs.Utils
+groupBox1	Form1.Designer.cs	/^        private System.Windows.Forms.GroupBox groupBox1;$/;"	f	class:MusicBallProLogs.Form1	file:
+isMouseUp	Form1.cs	/^        private Boolean isMouseUp = true; $/;"	f	class:MusicBallProLogs.Form1	file:
+label1	Form1.Designer.cs	/^        private System.Windows.Forms.Label label1;$/;"	f	class:MusicBallProLogs.Form1	file:
+label1_Click	Form1.cs	/^        private void label1_Click(object sender, EventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+label3	Form1.Designer.cs	/^        private System.Windows.Forms.Label label3;$/;"	f	class:MusicBallProLogs.Form1	file:
+logHighWatermark	Form1.cs	/^        const UInt32 logHighWatermark = 10000;  \/\/ If we reach high watermark, we delete until we're$/;"	f	class:MusicBallProLogs.Form1	file:
+logLowWatermark	Form1.cs	/^        const UInt32 logLowWatermark = 5000;$/;"	f	class:MusicBallProLogs.Form1	file:
+panel1	Form1.Designer.cs	/^        private System.Windows.Forms.Panel panel1;$/;"	f	class:MusicBallProLogs.Form1	file:
+panel2	Form1.Designer.cs	/^        private System.Windows.Forms.Panel panel2;$/;"	f	class:MusicBallProLogs.Form1	file:
+panel3	Form1.Designer.cs	/^        private System.Windows.Forms.Panel panel3;$/;"	f	class:MusicBallProLogs.Form1	file:
+panel4	Form1.Designer.cs	/^        private System.Windows.Forms.Panel panel4;$/;"	f	class:MusicBallProLogs.Form1	file:
+panel5	Form1.Designer.cs	/^        private System.Windows.Forms.Panel panel5;$/;"	f	class:MusicBallProLogs.Form1	file:
+panel5_MouseDown	Form1.cs	/^        private void panel5_MouseDown(object sender, MouseEventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+panel5_MouseUp	Form1.cs	/^        private void panel5_MouseUp(object sender, MouseEventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+panelSectorDrawing_Paint	Form1.cs	/^        private void panelSectorDrawing_Paint(object sender, PaintEventArgs e)$/;"	m	class:MusicBallProLogs.Form1	file:
+radian	Form1.cs	/^        static float radian = (float)PI \/ 180;$/;"	f	class:MusicBallProLogs.Form1	file:
+radius_index	Form1.cs	/^        private int radius_index  = 0;  $/;"	f	class:MusicBallProLogs.Form1	file:
+readThread	PortChat.cs	/^        private Thread readThread; $/;"	f	class:MusicBallProLogs.PortChat	file:
+rx	Form1.cs	/^        float[] rx = new float[10];$/;"	f	class:MusicBallProLogs.Form1	file:
+ry	Form1.cs	/^        float[] ry = new float[10];    $/;"	f	class:MusicBallProLogs.Form1	file:
+serialPort	Form1.cs	/^        private PortChat serialPort; $/;"	f	class:MusicBallProLogs.Form1	file:
+strConnect	Form1.cs	/^        const string strConnect = "Connect";$/;"	f	class:MusicBallProLogs.Form1	file:
+strDisconnect	Form1.cs	/^        const string strDisconnect = "Disconnect";$/;"	f	class:MusicBallProLogs.Form1	file:
+strScanning	Form1.cs	/^        const string strScanning = "Stop scanning";$/;"	f	class:MusicBallProLogs.Form1	file:
+strStartSendData	Form1.cs	/^        const string strStartSendData = "Send 100kB data";$/;"	f	class:MusicBallProLogs.Form1	file:
+strStopSendData	Form1.cs	/^        const string strStopSendData = "Stop sending data";$/;"	f	class:MusicBallProLogs.Form1	file:
+table	Form1.cs	/^        private DataTable table;$/;"	f	class:MusicBallProLogs.Form1	file:
+table	PortChat.cs	/^        private static DataTable table;$/;"	f	class:MusicBallProLogs.PortChat	file:
+textPosAngle	Form1.Designer.cs	/^        private System.Windows.Forms.TextBox textPosAngle;$/;"	f	class:MusicBallProLogs.Form1	file:
+textRange	Form1.Designer.cs	/^        private System.Windows.Forms.TextBox textRange;$/;"	f	class:MusicBallProLogs.Form1	file:
+theta_index	Form1.cs	/^        private int theta_index = 0;  $/;"	f	class:MusicBallProLogs.Form1	file:

@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: raouf bensalem, wowwee, LIC=EPPMM-X95HR-68DFC-7RXU1-2EWB9-JCHGY
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.15.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+D:\Users\user\Documents\Raouf\REPO\music-ball-pro\stm32l4\MDK-ARM\dac-test.uvprojx
+Project File Date:  07/07/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'dac-test'
+compiling main.c...
+../Src/main.c(253): warning:  #177-D: variable "tmp" was declared but never referenced
+                                uint32_t tmp = 0; 
+../Src/main.c(373): warning:  #550-D: variable "output" was set but never used
+                 static uint8_t output[2]; 
+../Src/main.c(468): warning:  #223-D: function "init_timer_ic" declared implicitly
+    init_timer_ic();   // timer2 init  
+../Src/main.c(469): warning:  #223-D: function "init_external_interrupts" declared implicitly
+    init_external_interrupts(); 
+../Src/main.c(731): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+    GPIO_InitTypeDef GPIO_InitStruct;
+../Src/main.c(689): warning:  #177-D: function "MX_TIM2_Init" was declared but never referenced
+  static void MX_TIM2_Init(void)
+../Src/main.c(87): warning:  #177-D: variable "m_app_state" was declared but never referenced
+  static uint8_t m_app_state = STATE_IDLE; 
+../Src/main.c(88): warning:  #177-D: variable "m_desired_angle" was declared but never referenced
+  static int16_t m_desired_angle = 0; 
+../Src/main.c(89): warning:  #177-D: variable "m_current_angle" was declared but never referenced
+  static int16_t m_current_angle= 0; 
+../Src/main.c(90): warning:  #177-D: variable "m_last_angle" was declared but never referenced
+  static int16_t m_last_angle = 0; 
+../Src/main.c(103): warning:  #177-D: variable "MAX_ANGLE" was declared but never referenced
+  static int MAX_ANGLE = 330; 
+../Src/main.c(104): warning:  #177-D: variable "MIN_ANGLE" was declared but never referenced
+  static int MIN_ANGLE = 15; 
+../Src/main.c(233): warning:  #177-D: function "handle_idle" was declared but never referenced
+  static void handle_idle(void) {
+../Src/main.c(344): warning:  #177-D: function "ir_reading_01" was declared but never referenced
+  static void ir_reading_01(void) {
+../Src/main.c(426): warning:  #177-D: function "ir_reading_03" was declared but never referenced
+  static void ir_reading_03(void) {
+../Src/main.c: 15 warnings, 0 errors
+linking...
+dac-test\dac-test.axf: Warning: L6988W: Ignoring unknown patch sdcomp-29491-629360.
+Program Size: Code=20800 RO-data=216120 RW-data=37180 ZI-data=23940  
+Finished: 0 information, 1 warning and 0 error messages.
+"dac-test\dac-test.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\Users\user\Documents\Raouf\REPO\music-ball-pro\stm32l4\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\1.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+</pre>
+</body>
+</html>
